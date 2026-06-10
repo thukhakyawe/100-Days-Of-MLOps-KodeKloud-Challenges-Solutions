@@ -29,7 +29,9 @@ Step 2 — Inspect the current configuration
 
 Check the existing pyproject.toml:
 
+```
 cat pyproject.toml
+```
 
 Look for:
 
@@ -41,7 +43,9 @@ Step 3 — Fix pyproject.toml
 
 Open the file:
 
+```
 vi pyproject.toml
+```
 
 Replace or correct the contents to include:
 
@@ -123,7 +127,9 @@ Step 6 — Format with Black
 
 Run:
 
+```
 black src/
+```
 
 Expected Output:
 
@@ -137,7 +143,9 @@ Step 8 — Final Ruff Validation
 
 Run again:
 
+```
 ruff check src/
+```
 
 Expected:
 
